@@ -5,3 +5,6 @@ from langgraph.prebuilt import create_react_agent
 from dotenv import load_dotenv
 
 load_dotenv()
+
+def main():
+    model = ChatOpenAI(temperature=0)
