@@ -21,3 +21,5 @@ def main():
         if user_input == "quit":
             print("Goodbye!")
             break
+        
+        print("\nAssistant: ", end="")
