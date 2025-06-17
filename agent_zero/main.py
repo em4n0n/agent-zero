@@ -29,4 +29,6 @@ def main():
             if "agent" in chunk and "messages" in chunk["agent"]:
                 for message in chunk["agent"]["messages"]:
                     print(message.content, end ="")
-                
+                    
+if __name__ == "__main__":
+    main()
